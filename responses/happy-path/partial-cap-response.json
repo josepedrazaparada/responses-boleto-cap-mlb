@@ -4,6 +4,7 @@
     "values": {
       "min": 4,
       "max": 4500,
+      "cap": 4500,
       "fee": 0,
       "free_months": 9
     },
