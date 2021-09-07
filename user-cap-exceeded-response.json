@@ -1,0 +1,43 @@
+{
+  "status": "success",
+  "model": {
+    "values": {
+      "min": 0,
+      "max": 0,
+      "fee": 0,
+      "free_months": 10
+    },
+    "config": {
+      "currency_symbol": "R$",
+      "currency": "BRL"
+    },
+    "presets": []
+  },
+  "texts": {
+    "calculator": {
+      "title": "Quanto você quer depositar?",
+      "max_exceeded": null,
+      "min_not_reached": null,
+      "cap_message": null,
+      "button_title": "Continuar",
+      "alert": null
+    },
+    "init_modal": {
+      "is_open": true,
+      "closable": false,
+      "title": "O limite de R$ {max_cap} por mês em depósito via {boleto/lotérica}",
+      "body": "Transfira pelo seu banco via Pix, é grátis e cai na hora!",
+      "first_button": {
+        "title": "Usar o Pix",
+        "deeplink": "mercadopago://money-in/pix_keys"
+      },
+      "second_button": {
+        "title": "Ir ao Início",
+        "deeplink": "mercadopago://inicio"
+      },
+      "image_key": ""
+    },
+    "finish_modal": null,
+    "card_info": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "success",
+  "model": {
+    "valors": {
+      "min": 0,
+      "max": 0,
+      "cap": 0,
+      "fee": 0,
+      "free_months": 10
+    },
+    "config": {
+      "currency_symbol": "R$",
+      "currency": "BRL"
+    },
+    "presets": []
+  },
+  "texts": {
+    "calculator": {
+      "title": "Quanto você quer depositar?",
+      "max_exceeded": null,
+      "min_not_reached": null,
+      "cap_message": null,
+      "button_title": "Continuar",
+      "alert": null
+    },
+    "init_modal": {
+      "is_open": true,
+      "closable": false,
+      "title": "Faça seu 1º depósito por Pix",
+      "body": "Por regulação do Banco Central, não é permitido usar {boleto/lotérica} para depositar na conta pela primeira vez.",
+      "first_button": {
+        "title": "Fazer um Pix",
+        "deeplink": "mercadopago://money-in/pix_keys"
+      },
+      "second_button": {
+        "title": "Ver outras formas de depósito",
+        "deeplink": "mercadopago://money-in/hub"
+      },
+      "image_key": ""
+    },
+    "finish_modal": null,
+    "card_info": null
+  }
+}
