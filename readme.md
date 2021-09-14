@@ -1,4 +1,4 @@
-## Modelo de respuestas para iniciativa cashin MLB Boleto y Pec con soporte para BACEN
+## Modelo de respuestas calculadora para iniciativa cashin MLB Boleto y Pec con soporte para BACEN
 _______________
 
 Este repo contiene las posibles respuestas y wordings correspondientes a los casos vistos 
