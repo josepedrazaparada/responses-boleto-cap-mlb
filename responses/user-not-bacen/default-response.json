@@ -6,7 +6,7 @@
       "max": 0,
       "cap": 0,
       "fee": 0,
-      "free_months": 10
+      "free_month": 10
     },
     "config": {
       "currency_symbol": "R$",
@@ -14,9 +14,9 @@
     },
     "presets": []
   },
-  "texts": {
+  "components": {
     "calculator": {
-      "title": "Quanto você quer depositar?",
+      "header": "Quanto você quer depositar?",
       "max_exceeded": null,
       "min_not_reached": null,
       "cap_message": null,
@@ -24,7 +24,6 @@
       "alert": null
     },
     "init_modal": {
-      "is_open": true,
       "closable": false,
       "title": "Faça seu 1º depósito por Pix",
       "body": "Por regulação do Banco Central, não é permitido usar {boleto/lotérica} para depositar na conta pela primeira vez.",

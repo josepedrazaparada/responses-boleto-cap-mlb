@@ -5,7 +5,7 @@
       "min": 0,
       "max": 0,
       "fee": 0,
-      "free_months": 10
+      "free_month": 10
     },
     "config": {
       "currency_symbol": "R$",
@@ -13,9 +13,9 @@
     },
     "presets": []
   },
-  "texts": {
+  "components": {
     "calculator": {
-      "title": "Quanto você quer depositar?",
+      "header": "Quanto você quer depositar?",
       "max_exceeded": null,
       "min_not_reached": null,
       "cap_message": null,
@@ -23,7 +23,6 @@
       "alert": null
     },
     "init_modal": {
-      "is_open": true,
       "closable": false,
       "title": "O limite de R$ {max_cap} por mês em depósito via {boleto/lotérica}",
       "body": "Transfira pelo seu banco via Pix, é grátis e cai na hora!",

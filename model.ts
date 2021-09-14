@@ -5,7 +5,8 @@ interface model {
       min: number;
       max: number;
       fee: number;
-      free_months: number;
+      cap: number;
+      free_month: number;
     };
     config: {
       currency_symbol: string;
@@ -18,9 +19,9 @@ interface model {
       }
     ];
   };
-  texts: {
+  components: {
     calculator: {
-      title: string;
+      header: string;
       max_exceeded: string | null;
       min_not_reached: string | null;
       cap_message: string | null;
@@ -31,7 +32,6 @@ interface model {
       };
     };
     init_modal: null | {
-      is_open: boolean;
       closable: boolean;
       title: string;
       body: string;
@@ -46,7 +46,6 @@ interface model {
       image_key: string;
     };
     finish_modal: null | {
-      is_open: boolean;
       closable: boolean;
       title: string;
       body: string;
@@ -63,6 +62,7 @@ interface model {
     card_info: null | {
       image: string;
       text: string;
+      deeplink: string;
     };
   };
 }
